@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header span {
+  margin-right: 10px;
+}
+
+header button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
